@@ -1,0 +1,20 @@
+name: analytics
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - scipy
+  - numpy
+  - statsmodels
+  - pandas
+  - matplotlib
+  - pytorch::pytorch
+  - pymc3
+  - jupyterlab
+  - ipython
+  - scikit-learn
+  - python-dotenv
+  - pip
+  - pip:
+    - pyro-ppl
